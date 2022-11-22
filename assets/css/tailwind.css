@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+@layer components {
+  .btn {
+    @apply px-3 py-2 text-sm font-bold text-white transition-all bg-teal-900 rounded-md hover:bg-teal-700;
+  }
+  .error-btn {
+    @apply px-3 py-2 text-sm font-bold text-white transition-all bg-red-900 rounded-md hover:bg-red-700;
+  }
+}
+@layer components {
+  .card {
+    @apply h-full p-3 bg-white rounded-md shadow-md;
+  }
+}
